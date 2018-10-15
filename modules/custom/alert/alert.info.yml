@@ -1,0 +1,9 @@
+name: Alert countdown
+type: module
+description: Shows oncoming events.
+core: 8.x
+version: 8.x
+package: Custom
+dependencies:
+  - block
+  - node

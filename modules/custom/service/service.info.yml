@@ -1,0 +1,6 @@
+name: Date service
+type: module
+description: Service for dates.
+core: 8.x
+version: 8.x
+package: Custom
