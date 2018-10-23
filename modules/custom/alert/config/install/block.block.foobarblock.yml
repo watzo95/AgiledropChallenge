@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - alert
+    - node
+  theme:
+    - bartik
+id: foobarblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: block_foobarblk
+settings:
+  id: block_foobarblk
+  label: 'Event countdown'
+  provider: alert
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
